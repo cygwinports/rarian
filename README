@@ -1,0 +1,108 @@
+rarian
+------------------------------------------
+Rarian is a documentation metadata library based on the proposed 
+Freedesktop.org spec.  It replaces scrollkeeper, and provides
+replacement commands for compatibility.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+
+Build requirements:
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.10-1.10-1
+  binutils-20060817-1
+  cygport-0.3.5-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://rarian.freedesktop.org/
+
+Canonical download:
+  http://rarian.freedesktop.org/Releases/
+  http://ftp.gnome.org/pub/GNOME/sources/rarian/
+
+-------------------------------------------
+
+Build instructions:
+  unpack rarian-0.6.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./rarian-0.6.0-X.cygport all
+
+This will create:
+  /usr/src/rarian-0.6.0-X-src.tar.bz2
+  /usr/src/rarian-0.6.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/cygrarian-0.dll
+  /usr/bin/rarian-example.exe
+  /usr/bin/rarian-sk-config
+  /usr/bin/rarian-sk-extract
+  /usr/bin/rarian-sk-gen-uuid.exe
+  /usr/bin/rarian-sk-get-cl.exe
+  /usr/bin/rarian-sk-get-content-list
+  /usr/bin/rarian-sk-get-extended-content-list
+  /usr/bin/rarian-sk-get-scripts
+  /usr/bin/rarian-sk-install
+  /usr/bin/rarian-sk-migrate.exe
+  /usr/bin/rarian-sk-preinstall.exe
+  /usr/bin/rarian-sk-rebuild
+  /usr/bin/rarian-sk-update
+  /usr/bin/scrollkeeper-config
+  /usr/bin/scrollkeeper-extract
+  /usr/bin/scrollkeeper-gen-seriesid
+  /usr/bin/scrollkeeper-get-cl
+  /usr/bin/scrollkeeper-get-content-list
+  /usr/bin/scrollkeeper-get-extended-content-list
+  /usr/bin/scrollkeeper-get-index-from-docpath
+  /usr/bin/scrollkeeper-get-toc-from-docpath
+  /usr/bin/scrollkeeper-get-toc-from-id
+  /usr/bin/scrollkeeper-install
+  /usr/bin/scrollkeeper-preinstall
+  /usr/bin/scrollkeeper-rebuilddb
+  /usr/bin/scrollkeeper-uninstall
+  /usr/bin/scrollkeeper-update
+  /usr/include/rarian/rarian-info.h
+  /usr/include/rarian/rarian-man.h
+  /usr/include/rarian/rarian-reg-utils.h
+  /usr/include/rarian/rarian.h
+  /usr/lib/librarian.a
+  /usr/lib/librarian.dll.a
+  /usr/lib/librarian.la
+  /usr/lib/pkgconfig/rarian.pc
+  /usr/share/doc/Cygwin/rarian-0.6.0.README
+  /usr/share/doc/rarian-0.6.0/COPYING
+  /usr/share/doc/rarian-0.6.0/COPYING.LIB
+  /usr/share/doc/rarian-0.6.0/ChangeLog
+  /usr/share/doc/rarian-0.6.0/INSTALL
+  /usr/share/doc/rarian-0.6.0/NEWS
+  /usr/share/doc/rarian-0.6.0/README
+  /usr/share/doc/rarian-0.6.0/TODO
+  /usr/share/help/rarian.document
+  /usr/share/librarian/Templates/C/scrollkeeper_cl.xml
+  /usr/share/librarian/manual/help-spec-0.2.xml
+  /usr/share/librarian/manual/index.xhtml
+  /usr/share/librarian/manual/rar-lib.xhtml
+  /usr/share/librarian/manual/rar-mdf.xhtml
+  /usr/share/librarian/manual/rar-skcompat.xhtml
+  /usr/share/librarian/rarian-sk-cl.xml
+
+------------------
+
+Port Notes:
+
+----- version 0.6.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

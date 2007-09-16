@@ -1,0 +1,6 @@
+category: Doc
+requires: cygwin
+sdesc: "Freedesktop documentation metadata system"
+ldesc: "Rarian is a documentation metadata library based on the proposed 
+Freedesktop.org spec.  It replaces scrollkeeper, and provides 
+replacement commands for compatibility."
