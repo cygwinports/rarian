@@ -1,0 +1,3 @@
+DESCRIPTION="FreeDesktop.org documentation metadata library"
+HOMEPAGE="http://rarian.freedesktop.org/"
+SRC_URI="http://rarian.freedesktop.org/Releases/${P}.tar.bz2"
