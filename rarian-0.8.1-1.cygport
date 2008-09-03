@@ -1,0 +1,11 @@
+DESCRIPTION="FreeDesktop.org documentation metadata library"
+HOMEPAGE="http://rarian.freedesktop.org/"
+SRC_URI="http://rarian.freedesktop.org/Releases/${P}.tar.bz2"
+PATCH_URI="0.8-no-undefined.patch"
+
+abi=0
+PKG_NAMES="${PN} lib${PN}${abi} lib${PN}-devel"
+PKG_HINTS="bin lib devel"
+PKG_CONTENTS[0]="--exclude=*.dll usr/bin/ usr/share/doc/"
+PKG_CONTENTS[1]="usr/bin/*-${abi}.dll usr/share/help/ usr/share/lib${PN}/"
+PKG_CONTENTS[2]="usr/include/ usr/lib/"
