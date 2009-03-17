@@ -5,18 +5,20 @@ Freedesktop.org spec.  It replaces scrollkeeper, and provides
 replacement commands for compatibility.
 
 Runtime requirements:
-  cygwin-1.5.25-15
+  cygwin-1.7.0-43
+  libgcc1-4.3.2-2
+  libstdc++6-4.3.2-2
   bash
 
 Build requirements:
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.0-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.2-2
-  make-3.81-1
+  cygport-0.9.5-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.7a-1
+  make-3.81-2
   sed-4.1.5-2
 
 Canonical website:
@@ -72,13 +74,13 @@ Files included in the binary packages:
   /usr/bin/scrollkeeper-rebuilddb
   /usr/bin/scrollkeeper-uninstall
   /usr/bin/scrollkeeper-update
-  /usr/share/doc/rarian-0.8.1/COPYING
-  /usr/share/doc/rarian-0.8.1/COPYING.LIB
-  /usr/share/doc/rarian-0.8.1/ChangeLog
-  /usr/share/doc/rarian-0.8.1/INSTALL
-  /usr/share/doc/rarian-0.8.1/NEWS
-  /usr/share/doc/rarian-0.8.1/README
-  /usr/share/doc/rarian-0.8.1/TODO
+  /usr/share/doc/rarian/COPYING
+  /usr/share/doc/rarian/COPYING.LIB
+  /usr/share/doc/rarian/ChangeLog
+  /usr/share/doc/rarian/INSTALL
+  /usr/share/doc/rarian/NEWS
+  /usr/share/doc/rarian/README
+  /usr/share/doc/rarian/TODO
 
 (librarian0)
   /usr/bin/cygrarian-0.dll
@@ -106,14 +108,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 0.8.1-1 -----
-Version bump.  Separated lib and devel packages.
-
------ version 0.8.0-1 -----
-Version bump.
-
------ version 0.6.0-1 -----
-Initial release for Cygwin.
+----- version 0.8.1-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

@@ -1,5 +1,5 @@
 category: Doc
-requires: cygwin
+requires: cygwin libgcc1 libstdc++6
 external-source: rarian
 sdesc: "Freedesktop documentation metadata system (library)"
 ldesc: "Rarian is a documentation metadata library based on the proposed 

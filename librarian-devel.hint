@@ -1,6 +1,7 @@
 category: Doc
-requires: cygwin bash librarian0
-sdesc: "Freedesktop documentation metadata system"
+requires: cygwin librarian0 libstdc++6-devel
+external-source: rarian
+sdesc: "Freedesktop documentation metadata system (libdevel)"
 ldesc: "Rarian is a documentation metadata library based on the proposed 
 Freedesktop.org spec.  It replaces scrollkeeper, and provides 
 replacement commands for compatibility."
