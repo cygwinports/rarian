@@ -5,7 +5,7 @@ Freedesktop.org spec.  It replaces scrollkeeper, and provides
 replacement commands for compatibility.
 
 Runtime requirements:
-  cygwin-1.7.0-48
+  cygwin-1.7.0-49
   libgcc1-4.3.2-2
   libstdc++6-4.3.2-2
   bash
@@ -14,10 +14,10 @@ Build requirements:
   autoconf2.5-2.63-10
   automake1.10-1.10.2-10
   binutils-20080624-2
-  cygport-0.9.6-1
+  cygport-0.9.7-1
   gawk-3.1.6-2
   gcc4-core-4.3.2-2
-  libtool-2.2.7a-12
+  libtool-2.2.7a-13
   make-3.81-2
   sed-4.1.5-2
 
@@ -109,7 +109,7 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 0.8.1-10 -----
+----- version 0.8.1-11 -----
 Rebuilt to add .manifest file for avoiding UAC issues.
 
 ----- version 0.8.1-10 -----
