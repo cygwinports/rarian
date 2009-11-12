@@ -5,19 +5,19 @@ Freedesktop.org spec.  It replaces scrollkeeper, and provides
 replacement commands for compatibility.
 
 Runtime requirements:
-  cygwin-1.7.0-49
-  libgcc1-4.3.2-2
-  libstdc++6-4.3.2-2
+  cygwin-1.7.0-62
+  libgcc1-4.3.4-1
+  libstdc++6-4.3.4-1
   bash
 
 Build requirements:
   autoconf2.5-2.63-10
   automake1.10-1.10.2-10
-  binutils-20080624-2
-  cygport-0.9.7-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
-  libtool-2.2.7a-13
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  libtool-2.2.7a-14
   make-3.81-2
   sed-4.1.5-2
 
@@ -45,69 +45,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary packages:
-
-  /usr/bin/rarian-example.exe
-  /usr/bin/rarian-sk-config
-  /usr/bin/rarian-sk-extract
-  /usr/bin/rarian-sk-gen-uuid.exe
-  /usr/bin/rarian-sk-get-cl.exe
-  /usr/bin/rarian-sk-get-content-list
-  /usr/bin/rarian-sk-get-extended-content-list
-  /usr/bin/rarian-sk-get-scripts
-  /usr/bin/rarian-sk-install
-  /usr/bin/rarian-sk-migrate.exe
-  /usr/bin/rarian-sk-preinstall.exe
-  /usr/bin/rarian-sk-preinstall.exe.manifest
-  /usr/bin/rarian-sk-rebuild
-  /usr/bin/rarian-sk-update
-  /usr/bin/scrollkeeper-config
-  /usr/bin/scrollkeeper-extract
-  /usr/bin/scrollkeeper-gen-seriesid
-  /usr/bin/scrollkeeper-get-cl
-  /usr/bin/scrollkeeper-get-content-list
-  /usr/bin/scrollkeeper-get-extended-content-list
-  /usr/bin/scrollkeeper-get-index-from-docpath
-  /usr/bin/scrollkeeper-get-toc-from-docpath
-  /usr/bin/scrollkeeper-get-toc-from-id
-  /usr/bin/scrollkeeper-install
-  /usr/bin/scrollkeeper-preinstall
-  /usr/bin/scrollkeeper-rebuilddb
-  /usr/bin/scrollkeeper-uninstall
-  /usr/bin/scrollkeeper-update
-  /usr/share/doc/rarian/COPYING
-  /usr/share/doc/rarian/COPYING.LIB
-  /usr/share/doc/rarian/ChangeLog
-  /usr/share/doc/rarian/INSTALL
-  /usr/share/doc/rarian/NEWS
-  /usr/share/doc/rarian/README
-  /usr/share/doc/rarian/TODO
-
-(librarian0)
-  /usr/bin/cygrarian-0.dll
-  /usr/share/help/rarian.document
-  /usr/share/librarian/Templates/C/scrollkeeper_cl.xml
-  /usr/share/librarian/manual/help-spec-0.2.xml
-  /usr/share/librarian/manual/index.xhtml
-  /usr/share/librarian/manual/rar-lib.xhtml
-  /usr/share/librarian/manual/rar-mdf.xhtml
-  /usr/share/librarian/manual/rar-skcompat.xhtml
-  /usr/share/librarian/rarian-sk-cl.xml
-
-(librarian-devel)
-  /usr/include/rarian/rarian-info.h
-  /usr/include/rarian/rarian-main.h
-  /usr/include/rarian/rarian-man.h
-  /usr/include/rarian/rarian-reg-utils.h
-  /usr/include/rarian/rarian.h
-  /usr/lib/librarian.a
-  /usr/lib/librarian.dll.a
-  /usr/lib/librarian.la
-  /usr/lib/pkgconfig/rarian.pc
-
-------------------
-
 Port Notes:
+
+----- version 0.8.1-12 -----
+Fixed file: URI parsing.
 
 ----- version 0.8.1-11 -----
 Rebuilt to add .manifest file for avoiding UAC issues.
