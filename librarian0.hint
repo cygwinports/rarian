@@ -1,7 +1,0 @@
-category: Doc
-requires: libgcc1 libstdc++6
-external-source: rarian
-sdesc: "Freedesktop documentation metadata system (library)"
-ldesc: "Rarian is a documentation metadata library based on the proposed 
-Freedesktop.org spec.  It replaces scrollkeeper, and provides 
-replacement commands for compatibility."
